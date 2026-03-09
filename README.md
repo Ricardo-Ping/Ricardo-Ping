@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Ricardo-Ping">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=900&color=00C2FF&center=true&vCenter=true&width=820&lines=Full-Stack+Developer;Building+cool+things+with+code;Open+Source+%7C+Automation+%7C+AI" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&pause=900&color=00C2FF&center=true&vCenter=true&width=920&lines=Deep+Learning+Engineer;LLM+Application+Builder;Database+%26+Data-Centric+AI+Practitioner" alt="Typing SVG" />
   </a>
 </p>
 
@@ -14,26 +14,19 @@
 
 ## About Me
 
-- I enjoy turning ideas into products with clean and maintainable code.
-- I focus on `Web`, `Automation`, and `AI-integrated applications`.
-- I am currently improving system design and cloud deployment skills.
-- I share projects in Chinese and English.
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,js,ts,html,css,react,nodejs,python,mysql,redis,git,github,vscode,docker,linux&perline=8" alt="tech stack" />
-</p>
+- I focus on `Deep Learning`, `Large Language Models (LLM)`, and `Database Systems`.
+- I build practical AI applications with model training, prompt engineering, and retrieval workflows.
+- I am currently improving my skills in LLM evaluation, RAG pipelines, and data-centric engineering.
+- I share technical projects and notes in both Chinese and English.
 
 ## GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ricardo-Ping&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Ricardo-Ping&theme=tokyonight&hide_border=true" alt="streak" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Ricardo-Ping&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="stats" />
 </p>
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ricardo-Ping&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ricardo-Ping&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs" />
 </p>
 
 ## Activity Graph
