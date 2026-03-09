@@ -105,7 +105,7 @@
 </p>
 
 <p>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-Contact_Me-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
+  <a href="mailto:ricardoping0623@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
 </p>
 
 ---
