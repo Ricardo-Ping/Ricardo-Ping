@@ -19,60 +19,75 @@
 - I am currently improving my skills in LLM evaluation, RAG pipelines, and data-centric engineering.
 - I share technical projects and notes in both Chinese and English.
 
-## Selected Publications
+## Publications (First Author)
 
 <table>
   <tr>
-    <td><strong>2026</strong></td>
-    <td><strong>MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception</strong><br/>Biomedical Signal Processing and Control 112, 108481</td>
-    <td><img src="https://img.shields.io/badge/Citations-3-1f6feb?style=flat-square" alt="citations 3"/></td>
-  </tr>
-  <tr>
     <td><strong>2025</strong></td>
-    <td><strong>LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation</strong><br/>Biomedical Signal Processing and Control 103, 107456</td>
+    <td><strong>DDRec: Dual denoising multimodal graph recommendation</strong><br/>Authors: Y Ping, S Wang, Z Yang, B He, N Zhou, Y Dong<br/>IEEE Transactions on Computational Social Systems 12(3), 1100-1114</td>
     <td><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
-    <td><strong>Mixed-GGNAS: Mixed Search-space NAS based on genetic algorithm combined with gradient descent for medical image segmentation</strong><br/>Expert Systems with Applications 289, 128338</td>
-    <td><img src="https://img.shields.io/badge/Citations-6-1f6feb?style=flat-square" alt="citations 6"/></td>
-  </tr>
-  <tr>
-    <td><strong>2025</strong></td>
-    <td><strong>MRFFD: multimodal recommender based on feature fusion and decoupling</strong><br/>Neural Computing and Applications 37(21), 16599-16620</td>
+    <td><strong>MRFFD: multimodal recommender based on feature fusion and decoupling</strong><br/>Authors: Y Ping, S Wang, Z Yang, Y Dong, R Jia<br/>Neural Computing and Applications 37(21), 16599-16620</td>
     <td><img src="https://img.shields.io/badge/Citations-4-1f6feb?style=flat-square" alt="citations 4"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
-    <td><strong>MRTI-CR: A model based on multi-relationship and time-aware interest for personalized course recommendation</strong><br/>Engineering Applications of Artificial Intelligence 159, 111560</td>
-    <td><img src="https://img.shields.io/badge/Citations-1-1f6feb?style=flat-square" alt="citations 1"/></td>
+    <td><strong>Grade: Generative Graph Contrastive Learning for Multimodal Recommendation</strong><br/>Authors: YC Ping, SQ Wang, ZY Yang, YQ Dong, MX Hu, PL Zhang<br/>Neurocomputing, 131630</td>
+    <td><img src="https://img.shields.io/badge/Citations-New-success?style=flat-square" alt="citations new"/></td>
+  </tr>
+</table>
+
+## Publications (Co-Author)
+
+<table>
+  <tr>
+    <td><strong>2026</strong></td>
+    <td><strong>MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception</strong><br/>Authors: P Zhang, Y Dong, J Li, L Jiang, M Hu, Y Ping<br/>Biomedical Signal Processing and Control 112, 108481</td>
+    <td><img src="https://img.shields.io/badge/Citations-3-1f6feb?style=flat-square" alt="citations 3"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
-    <td><strong>Grade: Generative Graph Contrastive Learning for Multimodal Recommendation</strong><br/>Neurocomputing, 131630</td>
-    <td><img src="https://img.shields.io/badge/Citations-New-success?style=flat-square" alt="citations new"/></td>
+    <td><strong>LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation</strong><br/>Authors: M Hu, Y Dong, J Li, L Jiang, P Zhang, Y Ping<br/>Biomedical Signal Processing and Control 103, 107456</td>
+    <td><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
   </tr>
   <tr>
-    <td><strong>2024</strong></td>
-    <td><strong>DDRec: Dual denoising multimodal graph recommendation</strong><br/>IEEE Transactions on Computational Social Systems 12(3), 1100-1114</td>
-    <td><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
+    <td><strong>2025</strong></td>
+    <td><strong>Mixed-GGNAS: Mixed Search-space NAS based on genetic algorithm combined with gradient descent for medical image segmentation</strong><br/>Authors: M Hu, J Li, Y Dong, Z Zhang, W Liu, P Zhang, Y Ping, L Jiang, Z Yu<br/>Expert Systems with Applications 289, 128338</td>
+    <td><img src="https://img.shields.io/badge/Citations-6-1f6feb?style=flat-square" alt="citations 6"/></td>
+  </tr>
+  <tr>
+    <td><strong>2025</strong></td>
+    <td><strong>MRTI-CR: A model based on multi-relationship and time-aware interest for personalized course recommendation</strong><br/>Authors: S Huang, Y Dong, Z Wang, N Zhou, Y Ping<br/>Engineering Applications of Artificial Intelligence 159, 111560</td>
+    <td><img src="https://img.shields.io/badge/Citations-1-1f6feb?style=flat-square" alt="citations 1"/></td>
   </tr>
 </table>
 
 ## GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ricardo-Ping&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="stats" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ricardo-Ping&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=e6edf3&text_color=a5b4c3&icon_color=58a6ff" alt="stats" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ricardo-Ping&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ricardo-Ping&layout=compact&hide_border=true&langs_count=8&bg_color=0d1117&title_color=e6edf3&text_color=a5b4c3" alt="top langs" />
 </p>
 
 ## Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ricardo-Ping&theme=tokyo-night&hide_border=true" alt="activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ricardo-Ping&theme=github-dark&hide_border=true&bg_color=0d1117&color=a5b4c3&line=58a6ff&point=f2cc60&title_color=e6edf3" alt="activity graph" />
+</p>
+
+## Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ricardo-Ping/Ricardo-Ping/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ricardo-Ping/Ricardo-Ping/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Ricardo-Ping/Ricardo-Ping/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 ## 2026 Goals
