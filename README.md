@@ -19,14 +19,54 @@
 - I am currently improving my skills in LLM evaluation, RAG pipelines, and data-centric engineering.
 - I share technical projects and notes in both Chinese and English.
 
+## Selected Publications
+
+<table>
+  <tr>
+    <td><strong>2026</strong></td>
+    <td><strong>MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception</strong><br/>Biomedical Signal Processing and Control 112, 108481</td>
+    <td><img src="https://img.shields.io/badge/Citations-3-1f6feb?style=flat-square" alt="citations 3"/></td>
+  </tr>
+  <tr>
+    <td><strong>2025</strong></td>
+    <td><strong>LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation</strong><br/>Biomedical Signal Processing and Control 103, 107456</td>
+    <td><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
+  </tr>
+  <tr>
+    <td><strong>2025</strong></td>
+    <td><strong>Mixed-GGNAS: Mixed Search-space NAS based on genetic algorithm combined with gradient descent for medical image segmentation</strong><br/>Expert Systems with Applications 289, 128338</td>
+    <td><img src="https://img.shields.io/badge/Citations-6-1f6feb?style=flat-square" alt="citations 6"/></td>
+  </tr>
+  <tr>
+    <td><strong>2025</strong></td>
+    <td><strong>MRFFD: multimodal recommender based on feature fusion and decoupling</strong><br/>Neural Computing and Applications 37(21), 16599-16620</td>
+    <td><img src="https://img.shields.io/badge/Citations-4-1f6feb?style=flat-square" alt="citations 4"/></td>
+  </tr>
+  <tr>
+    <td><strong>2025</strong></td>
+    <td><strong>MRTI-CR: A model based on multi-relationship and time-aware interest for personalized course recommendation</strong><br/>Engineering Applications of Artificial Intelligence 159, 111560</td>
+    <td><img src="https://img.shields.io/badge/Citations-1-1f6feb?style=flat-square" alt="citations 1"/></td>
+  </tr>
+  <tr>
+    <td><strong>2025</strong></td>
+    <td><strong>Grade: Generative Graph Contrastive Learning for Multimodal Recommendation</strong><br/>Neurocomputing, 131630</td>
+    <td><img src="https://img.shields.io/badge/Citations-New-success?style=flat-square" alt="citations new"/></td>
+  </tr>
+  <tr>
+    <td><strong>2024</strong></td>
+    <td><strong>DDRec: Dual denoising multimodal graph recommendation</strong><br/>IEEE Transactions on Computational Social Systems 12(3), 1100-1114</td>
+    <td><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
+  </tr>
+</table>
+
 ## GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Ricardo-Ping&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="stats" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ricardo-Ping&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" alt="stats" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ricardo-Ping&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ricardo-Ping&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs" />
 </p>
 
 ## Activity Graph
