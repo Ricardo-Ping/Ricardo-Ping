@@ -12,7 +12,7 @@
   <a href="https://github.com/Ricardo-Ping?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-View-blue?style=for-the-badge" alt="repos" /></a>
 </p>
 
-## About Me
+## 🎓 About Me
 
 - I focus on `Deep Learning`, `Large Language Models (LLM)`, and `Database Systems`.
 - I build practical AI applications with model training, prompt engineering, and retrieval workflows.
@@ -22,7 +22,7 @@
 <!-- PUBS:START -->
 > Auto-synced source: **Google Scholar (6dyrh68AAAAJ)**
 
-## Publications (First Author)
+## 📄 Publications (First Author)
 
 <table>
   <tr>
@@ -42,7 +42,7 @@
   </tr>
 </table>
 
-## Publications (Co-Author)
+## 📝 Publications (Co-Author)
 
 <table>
   <tr>
@@ -68,7 +68,7 @@
 </table>
 <!-- PUBS:END -->
 
-## GitHub Stats
+## 📈 GitHub Stats
 
 <p align="center">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ricardo-Ping&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=e6edf3&text_color=a5b4c3&icon_color=58a6ff" alt="stats" />
@@ -78,7 +78,7 @@
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ricardo-Ping&layout=compact&hide_border=true&langs_count=8&bg_color=0d1117&title_color=e6edf3&text_color=a5b4c3" alt="top langs" />
 </p>
 
-## Contribution Snake
+## 🧬 Contribution Snake
 
 <p align="center">
   <picture>
@@ -88,13 +88,21 @@
   </picture>
 </p>
 
-## 2026 Goals
+## 🧭 2026 Goals
 
 - Build 3 end-to-end projects with production deployment.
 - Improve documentation and write more bilingual project guides.
 - Contribute to open-source projects consistently.
 
-## Contact
+## ✉️ Contact
+
+## 🔎 Visitors
+
+<p align="left">
+  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FRicardo-Ping%2FRicardo-Ping">
+    <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FRicardo-Ping%2FRicardo-Ping&label=Profile%20Visitors&countColor=%230ea5e9&style=flat-square" alt="visitor badge" />
+  </a>
+</p>
 
 <p>
   <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-Contact_Me-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
