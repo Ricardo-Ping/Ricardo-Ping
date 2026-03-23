@@ -22,7 +22,7 @@
 <!-- PUBS:START -->
 > Auto-synced source: **Google Scholar (6dyrh68AAAAJ)**
 
-## 📄 Publications (First Author)
+## Publications (First Author)
 
 <table>
   <tr>
@@ -38,11 +38,11 @@
   <tr>
     <td><strong>2024</strong></td>
     <td><a href="https://doi.org/10.1109/tcss.2024.3490801"><strong>DDRec: Dual denoising multimodal graph recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, B He, N Zhou, Y Dong<br/>IEEE Transactions on Computational Social Systems 12 (3), 1100-1114, 2024</td>
-    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
+    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://img.shields.io/badge/Citations-9-1f6feb?style=flat-square" alt="citations 9"/></td>
   </tr>
 </table>
 
-## 📝 Publications (Co-Author)
+## Publications (Co-Author)
 
 <table>
   <tr>
