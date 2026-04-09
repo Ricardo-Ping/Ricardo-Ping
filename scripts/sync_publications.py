@@ -51,7 +51,8 @@ def normalize_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
 def load_seed() -> List[Dict[str, Any]]:
     if not SEED_PATH.exists():
         return []
-    data = json.loads(SEED_PATH.read_text(encoding="utf-8"))
+    # Accept UTF-8 with or without BOM to keep CI resilient to editor encoding differences.
+    data = json.loads(SEED_PATH.read_text(encoding="utf-8-sig"))
     return [normalize_entry(x) for x in data]
 
 
