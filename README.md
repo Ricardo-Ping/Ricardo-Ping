@@ -26,6 +26,11 @@
 
 <table>
   <tr>
+    <td><strong>2026</strong></td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311"><strong>Modality-aware Hypergraph Edge Diffusion for Multimodal Recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, S Huang, M Hu, Y Dong<br/>Expert Systems with Applications, 132311, 2026</td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311">DOI</a><br/><img src="https://img.shields.io/badge/Citations-N%2FA-6e7681?style=flat-square" alt="citations n/a"/></td>
+  </tr>
+  <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1007/s00521-025-11372-6"><strong>MRFFD: multimodal recommender based on feature fusion and decoupling</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, Y Dong, R Jia<br/>Neural Computing and Applications 37 (21), 16599-16620, 2025</td>
     <td><a href="https://doi.org/10.1007/s00521-025-11372-6">DOI</a><br/><img src="https://img.shields.io/badge/Citations-4-1f6feb?style=flat-square" alt="citations 4"/></td>
@@ -38,7 +43,7 @@
   <tr>
     <td><strong>2024</strong></td>
     <td><a href="https://doi.org/10.1109/tcss.2024.3490801"><strong>DDRec: Dual denoising multimodal graph recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, B He, N Zhou, Y Dong<br/>IEEE Transactions on Computational Social Systems 12 (3), 1100-1114, 2024</td>
-    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://img.shields.io/badge/Citations-9-1f6feb?style=flat-square" alt="citations 9"/></td>
+    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://img.shields.io/badge/Citations-10-1f6feb?style=flat-square" alt="citations 10"/></td>
   </tr>
 </table>
 
@@ -63,7 +68,7 @@
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.bspc.2024.107456"><strong>LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation</strong></a><br/>Authors: M Hu, Y Dong, J Li, L Jiang, P Zhang, Y Ping<br/>Biomedical Signal Processing and Control 103, 107456, 2025</td>
-    <td><a href="https://doi.org/10.1016/j.bspc.2024.107456">DOI</a><br/><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
+    <td><a href="https://doi.org/10.1016/j.bspc.2024.107456">DOI</a><br/><img src="https://img.shields.io/badge/Citations-9-1f6feb?style=flat-square" alt="citations 9"/></td>
   </tr>
 </table>
 <!-- PUBS:END -->

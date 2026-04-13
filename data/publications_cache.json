@@ -1,6 +1,22 @@
 [
   {
     "year": 2026,
+    "title": "Modality-aware Hypergraph Edge Diffusion for Multimodal Recommendation",
+    "authors": [
+      "Y Ping",
+      "S Wang",
+      "Z Yang",
+      "S Huang",
+      "M Hu",
+      "Y Dong"
+    ],
+    "venue": "Expert Systems with Applications, 132311, 2026",
+    "doi": "10.1016/j.eswa.2026.132311",
+    "paper_url": null,
+    "citations": null
+  },
+  {
+    "year": 2026,
     "title": "MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception",
     "authors": [
       "P Zhang",
@@ -94,7 +110,7 @@
     "venue": "Biomedical Signal Processing and Control 103, 107456, 2025",
     "doi": "10.1016/j.bspc.2024.107456",
     "paper_url": null,
-    "citations": 8
+    "citations": 9
   },
   {
     "year": 2024,
@@ -110,6 +126,6 @@
     "venue": "IEEE Transactions on Computational Social Systems 12 (3), 1100-1114, 2024",
     "doi": "10.1109/tcss.2024.3490801",
     "paper_url": null,
-    "citations": 9
+    "citations": 10
   }
 ]
