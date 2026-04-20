@@ -1,22 +1,6 @@
 [
   {
     "year": 2026,
-    "title": "Modality-aware Hypergraph Edge Diffusion for Multimodal Recommendation",
-    "authors": [
-      "Y Ping",
-      "S Wang",
-      "Z Yang",
-      "S Huang",
-      "M Hu",
-      "Y Dong"
-    ],
-    "venue": "Expert Systems with Applications, 132311, 2026",
-    "doi": "10.1016/j.eswa.2026.132311",
-    "paper_url": null,
-    "citations": null
-  },
-  {
-    "year": 2026,
     "title": "MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception",
     "authors": [
       "P Zhang",
@@ -26,41 +10,26 @@
       "M Hu",
       "Y Ping"
     ],
-    "venue": "Biomedical Signal Processing and Control 112, 108481, 2026",
+    "venue": "Biomedical Signal Processing and Control 112, 108481",
     "doi": "10.1016/j.bspc.2025.108481",
     "paper_url": null,
     "citations": 3
   },
   {
     "year": 2025,
-    "title": "MRTI-CR: A model based on multi-relationship and time-aware interest for personalized course recommendation",
+    "title": "LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation",
     "authors": [
-      "S Huang",
+      "M Hu",
       "Y Dong",
-      "Z Wang",
-      "N Zhou",
+      "J Li",
+      "L Jiang",
+      "P Zhang",
       "Y Ping"
     ],
-    "venue": "Engineering Applications of Artificial Intelligence 159, 111560, 2025",
-    "doi": "10.1016/j.engappai.2025.111560",
+    "venue": "Biomedical Signal Processing and Control 103, 107456",
+    "doi": "10.1016/j.bspc.2024.107456",
     "paper_url": null,
-    "citations": 1
-  },
-  {
-    "year": 2025,
-    "title": "Grade: Generative Graph Contrastive Learning for Multimodal Recommendation",
-    "authors": [
-      "YC Ping",
-      "SQ Wang",
-      "ZY Yang",
-      "YQ Dong",
-      "MX Hu",
-      "PL Zhang"
-    ],
-    "venue": "Neurocomputing, 131630, 2025",
-    "doi": "10.1016/j.neucom.2025.131630",
-    "paper_url": null,
-    "citations": null
+    "citations": 8
   },
   {
     "year": 2025,
@@ -76,7 +45,7 @@
       "L Jiang",
       "Z Yu"
     ],
-    "venue": "Expert Systems with Applications 289, 128338, 2025",
+    "venue": "Expert Systems with Applications 289, 128338",
     "doi": "10.1016/j.eswa.2025.128338",
     "paper_url": null,
     "citations": 6
@@ -91,29 +60,44 @@
       "Y Dong",
       "R Jia"
     ],
-    "venue": "Neural Computing and Applications 37 (21), 16599-16620, 2025",
+    "venue": "Neural Computing and Applications 37(21), 16599-16620",
     "doi": "10.1007/s00521-025-11372-6",
     "paper_url": null,
     "citations": 4
   },
   {
     "year": 2025,
-    "title": "LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation",
+    "title": "MRTI-CR: A model based on multi-relationship and time-aware interest for personalized course recommendation",
     "authors": [
-      "M Hu",
+      "S Huang",
       "Y Dong",
-      "J Li",
-      "L Jiang",
-      "P Zhang",
+      "Z Wang",
+      "N Zhou",
       "Y Ping"
     ],
-    "venue": "Biomedical Signal Processing and Control 103, 107456, 2025",
-    "doi": "10.1016/j.bspc.2024.107456",
+    "venue": "Engineering Applications of Artificial Intelligence 159, 111560",
+    "doi": "10.1016/j.engappai.2025.111560",
     "paper_url": null,
-    "citations": 9
+    "citations": 1
   },
   {
-    "year": 2024,
+    "year": 2025,
+    "title": "Grade: Generative Graph Contrastive Learning for Multimodal Recommendation",
+    "authors": [
+      "YC Ping",
+      "SQ Wang",
+      "ZY Yang",
+      "YQ Dong",
+      "MX Hu",
+      "PL Zhang"
+    ],
+    "venue": "Neurocomputing, 131630",
+    "doi": "10.1016/j.neucom.2025.131630",
+    "paper_url": null,
+    "citations": null
+  },
+  {
+    "year": 2025,
     "title": "DDRec: Dual denoising multimodal graph recommendation",
     "authors": [
       "Y Ping",
@@ -123,9 +107,9 @@
       "N Zhou",
       "Y Dong"
     ],
-    "venue": "IEEE Transactions on Computational Social Systems 12 (3), 1100-1114, 2024",
+    "venue": "IEEE Transactions on Computational Social Systems 12(3), 1100-1114",
     "doi": "10.1109/tcss.2024.3490801",
     "paper_url": null,
-    "citations": 10
+    "citations": 8
   }
 ]
