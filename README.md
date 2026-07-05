@@ -26,6 +26,11 @@
 
 <table>
   <tr>
+    <td><strong>2026</strong></td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311"><strong>Modality-aware Hypergraph Edge Diffusion for Multimodal Recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, S Huang, M Hu, Y Dong<br/>Expert Systems with Applications 321, 132311</td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311">DOI</a><br/><img src="https://img.shields.io/badge/Citations-N%2FA-6e7681?style=flat-square" alt="citations n/a"/></td>
+  </tr>
+  <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1007/s00521-025-11372-6"><strong>MRFFD: multimodal recommender based on feature fusion and decoupling</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, Y Dong, R Jia<br/>Neural Computing and Applications 37(21), 16599-16620</td>
     <td><a href="https://doi.org/10.1007/s00521-025-11372-6">DOI</a><br/><img src="https://img.shields.io/badge/Citations-4-1f6feb?style=flat-square" alt="citations 4"/></td>

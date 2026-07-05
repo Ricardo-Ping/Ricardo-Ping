@@ -51,6 +51,22 @@
     "citations": 6
   },
   {
+    "year": 2026,
+    "title": "Modality-aware Hypergraph Edge Diffusion for Multimodal Recommendation",
+    "authors": [
+      "Y Ping",
+      "S Wang",
+      "Z Yang",
+      "S Huang",
+      "M Hu",
+      "Y Dong"
+    ],
+    "venue": "Expert Systems with Applications 321, 132311",
+    "doi": "10.1016/j.eswa.2026.132311",
+    "paper_url": null,
+    "citations": null
+  },
+  {
     "year": 2025,
     "title": "MRFFD: multimodal recommender based on feature fusion and decoupling",
     "authors": [
