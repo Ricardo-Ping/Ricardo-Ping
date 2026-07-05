@@ -214,6 +214,51 @@ def enrich_with_crossref(entries: List[Dict[str, Any]]) -> None:
                 e["authors"] = authors
 
 
+def fetch_openalex_work(doi: Optional[str], title: str) -> Optional[Dict[str, Any]]:
+    mailto = os.getenv("OPENALEX_EMAIL", "").strip()
+
+    if doi:
+        doi_path = urllib.parse.quote(doi_to_url(doi) or "", safe="")
+        params = {"mailto": mailto} if mailto else None
+        url = "https://api.openalex.org/works/" + doi_path
+        if params:
+            url += "?" + urllib.parse.urlencode(params)
+        try:
+            return fetch_json(url)
+        except Exception:
+            pass
+
+    if not title:
+        return None
+
+    params = {"search": title, "per-page": "1"}
+    if mailto:
+        params["mailto"] = mailto
+    url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params)
+    result = fetch_json(url)
+    return (result.get("results") or [None])[0]
+
+
+def enrich_with_openalex_citations(entries: List[Dict[str, Any]]) -> None:
+    for e in entries:
+        doi = e.get("doi")
+        title = e.get("title", "")
+        if not doi and not title:
+            continue
+
+        try:
+            work = fetch_openalex_work(doi, title)
+        except Exception:
+            continue
+
+        if not work:
+            continue
+
+        cited_by_count = work.get("cited_by_count")
+        if cited_by_count is not None:
+            e["citations"] = int(cited_by_count)
+
+
 def is_first_author(entry: Dict[str, Any], primary_last_name: str) -> bool:
     if not entry.get("authors"):
         return False
@@ -328,8 +373,9 @@ def main() -> int:
                 print(f"[info] cache empty; using seed publications from {SEED_PATH}")
 
     enrich_with_crossref(entries)
+    enrich_with_openalex_citations(entries)
 
-    if source_label != "cached data" and source_label != "seed data":
+    if source_label != "seed data":
         write_cache(entries)
 
     readme = README_PATH.read_text(encoding="utf-8")

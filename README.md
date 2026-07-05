@@ -28,22 +28,22 @@
   <tr>
     <td><strong>2026</strong></td>
     <td><a href="https://doi.org/10.1016/j.eswa.2026.132311"><strong>Modality-aware Hypergraph Edge Diffusion for Multimodal Recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, S Huang, M Hu, Y Dong<br/>Expert Systems with Applications 321, 132311</td>
-    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311">DOI</a><br/><img src="https://img.shields.io/badge/Citations-N%2FA-6e7681?style=flat-square" alt="citations n/a"/></td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311">DOI</a><br/><img src="https://img.shields.io/badge/Citations-0-1f6feb?style=flat-square" alt="citations 0"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1007/s00521-025-11372-6"><strong>MRFFD: multimodal recommender based on feature fusion and decoupling</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, Y Dong, R Jia<br/>Neural Computing and Applications 37(21), 16599-16620</td>
-    <td><a href="https://doi.org/10.1007/s00521-025-11372-6">DOI</a><br/><img src="https://img.shields.io/badge/Citations-4-1f6feb?style=flat-square" alt="citations 4"/></td>
+    <td><a href="https://doi.org/10.1007/s00521-025-11372-6">DOI</a><br/><img src="https://img.shields.io/badge/Citations-1-1f6feb?style=flat-square" alt="citations 1"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.neucom.2025.131630"><strong>Grade: Generative Graph Contrastive Learning for Multimodal Recommendation</strong></a><br/>Authors: YC Ping, SQ Wang, ZY Yang, YQ Dong, MX Hu, PL Zhang<br/>Neurocomputing, 131630</td>
-    <td><a href="https://doi.org/10.1016/j.neucom.2025.131630">DOI</a><br/><img src="https://img.shields.io/badge/Citations-N%2FA-6e7681?style=flat-square" alt="citations n/a"/></td>
+    <td><a href="https://doi.org/10.1016/j.neucom.2025.131630">DOI</a><br/><img src="https://img.shields.io/badge/Citations-1-1f6feb?style=flat-square" alt="citations 1"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1109/tcss.2024.3490801"><strong>DDRec: Dual denoising multimodal graph recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, B He, N Zhou, Y Dong<br/>IEEE Transactions on Computational Social Systems 12(3), 1100-1114</td>
-    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
+    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://img.shields.io/badge/Citations-6-1f6feb?style=flat-square" alt="citations 6"/></td>
   </tr>
 </table>
 
@@ -53,12 +53,12 @@
   <tr>
     <td><strong>2026</strong></td>
     <td><a href="https://doi.org/10.1016/j.bspc.2025.108481"><strong>MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception</strong></a><br/>Authors: P Zhang, Y Dong, J Li, L Jiang, M Hu, Y Ping<br/>Biomedical Signal Processing and Control 112, 108481</td>
-    <td><a href="https://doi.org/10.1016/j.bspc.2025.108481">DOI</a><br/><img src="https://img.shields.io/badge/Citations-3-1f6feb?style=flat-square" alt="citations 3"/></td>
+    <td><a href="https://doi.org/10.1016/j.bspc.2025.108481">DOI</a><br/><img src="https://img.shields.io/badge/Citations-1-1f6feb?style=flat-square" alt="citations 1"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.eswa.2025.128338"><strong>Mixed-GGNAS: Mixed Search-space NAS based on genetic algorithm combined with gradient descent for medical image segmentation</strong></a><br/>Authors: M Hu, J Li, Y Dong, Z Zhang, W Liu, P Zhang, Y Ping, L Jiang, Z Yu<br/>Expert Systems with Applications 289, 128338</td>
-    <td><a href="https://doi.org/10.1016/j.eswa.2025.128338">DOI</a><br/><img src="https://img.shields.io/badge/Citations-6-1f6feb?style=flat-square" alt="citations 6"/></td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2025.128338">DOI</a><br/><img src="https://img.shields.io/badge/Citations-9-1f6feb?style=flat-square" alt="citations 9"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
@@ -68,7 +68,7 @@
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.bspc.2024.107456"><strong>LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation</strong></a><br/>Authors: M Hu, Y Dong, J Li, L Jiang, P Zhang, Y Ping<br/>Biomedical Signal Processing and Control 103, 107456</td>
-    <td><a href="https://doi.org/10.1016/j.bspc.2024.107456">DOI</a><br/><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
+    <td><a href="https://doi.org/10.1016/j.bspc.2024.107456">DOI</a><br/><img src="https://img.shields.io/badge/Citations-9-1f6feb?style=flat-square" alt="citations 9"/></td>
   </tr>
 </table>
 <!-- PUBS:END -->
