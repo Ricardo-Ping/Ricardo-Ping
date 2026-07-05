@@ -56,6 +56,18 @@ def load_seed() -> List[Dict[str, Any]]:
     return [normalize_entry(x) for x in data]
 
 
+def load_cache() -> List[Dict[str, Any]]:
+    if not CACHE_PATH.exists():
+        return []
+    data = json.loads(CACHE_PATH.read_text(encoding="utf-8-sig"))
+    return [normalize_entry(x) for x in data]
+
+
+def write_cache(entries: List[Dict[str, Any]]) -> None:
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CACHE_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def extract_orcid_external_ids(work: Dict[str, Any]) -> Dict[str, str]:
     ids: Dict[str, str] = {}
     groups = work.get("external-ids", {}).get("external-id", []) or []
@@ -282,7 +294,8 @@ def main() -> int:
     primary_last_name = os.getenv("PRIMARY_AUTHOR_LAST_NAME", "ping").strip()
 
     entries: List[Dict[str, Any]] = []
-    source_label = "seed"
+    source_label = "seed data"
+    remote_failed = False
 
     try:
         if source == "scholar" and scholar_id:
@@ -298,16 +311,26 @@ def main() -> int:
             entries = fetch_scholar_publications(scholar_id)
             source_label = f"Google Scholar ({scholar_id})"
     except Exception as exc:
+        remote_failed = True
         print(f"[warn] remote source fetch failed: {exc}")
 
     if not entries:
-        entries = load_seed()
-        source_label = "seed data"
+        cached_entries = load_cache()
+        if cached_entries:
+            entries = cached_entries
+            source_label = "cached data"
+            if remote_failed:
+                print(f"[info] using cached publications from {CACHE_PATH}")
+        else:
+            entries = load_seed()
+            source_label = "seed data"
+            if remote_failed:
+                print(f"[info] cache empty; using seed publications from {SEED_PATH}")
 
     enrich_with_crossref(entries)
 
-    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    CACHE_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8")
+    if source_label != "cached data" and source_label != "seed data":
+        write_cache(entries)
 
     readme = README_PATH.read_text(encoding="utf-8")
     block = render_publication_section(entries, source_label, primary_last_name)
