@@ -20,7 +20,7 @@
 - I share technical projects and notes in both Chinese and English.
 
 <!-- PUBS:START -->
-> Auto-synced source: **Google Scholar (6dyrh68AAAAJ)**
+> Auto-synced source: **cached data**
 
 ## Publications (First Author)
 
