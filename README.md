@@ -38,7 +38,7 @@
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.neucom.2025.131630"><strong>Grade: Generative Graph Contrastive Learning for Multimodal Recommendation</strong></a><br/>Authors: YC Ping, SQ Wang, ZY Yang, YQ Dong, MX Hu, PL Zhang<br/>Neurocomputing, 131630, 2025</td>
-    <td><a href="https://doi.org/10.1016/j.neucom.2025.131630">DOI</a><br/><img src="https://img.shields.io/badge/Citations-1-1f6feb?style=flat-square" alt="citations 1"/></td>
+    <td><a href="https://doi.org/10.1016/j.neucom.2025.131630">DOI</a><br/><img src="https://img.shields.io/badge/Citations-2-1f6feb?style=flat-square" alt="citations 2"/></td>
   </tr>
   <tr>
     <td><strong>2024</strong></td>
