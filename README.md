@@ -43,7 +43,7 @@
   <tr>
     <td><strong>2024</strong></td>
     <td><a href="https://doi.org/10.1109/tcss.2024.3490801"><strong>DDRec: Dual denoising multimodal graph recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, B He, N Zhou, Y Dong<br/>IEEE Transactions on Computational Social Systems 12 (3), 1100-1114, 2024</td>
-    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://img.shields.io/badge/Citations-6-1f6feb?style=flat-square" alt="citations 6"/></td>
+    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://img.shields.io/badge/Citations-8-1f6feb?style=flat-square" alt="citations 8"/></td>
   </tr>
 </table>
 
@@ -53,7 +53,7 @@
   <tr>
     <td><strong>2026</strong></td>
     <td><a href="https://doi.org/10.1016/j.bspc.2025.108481"><strong>MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception</strong></a><br/>Authors: P Zhang, Y Dong, J Li, L Jiang, M Hu, Y Ping<br/>Biomedical Signal Processing and Control 112, 108481, 2026</td>
-    <td><a href="https://doi.org/10.1016/j.bspc.2025.108481">DOI</a><br/><img src="https://img.shields.io/badge/Citations-1-1f6feb?style=flat-square" alt="citations 1"/></td>
+    <td><a href="https://doi.org/10.1016/j.bspc.2025.108481">DOI</a><br/><img src="https://img.shields.io/badge/Citations-2-1f6feb?style=flat-square" alt="citations 2"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
