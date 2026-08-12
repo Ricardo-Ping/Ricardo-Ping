@@ -1,0 +1,36 @@
+<svg width="820" height="248" viewBox="0 0 820 248" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="statsTitle statsDesc">
+  <title id="statsTitle">Ricardo-Ping GitHub Stats</title>
+  <desc id="statsDesc">Auto-generated GitHub profile statistics card.</desc>
+  <rect x="1" y="1" width="818" height="246" rx="18" fill="#0d1117" stroke="#30363d" />
+  <text x="28" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#e6edf3">GitHub Stats</text>
+  <text x="28" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">@Ricardo-Ping · public activity snapshot</text>
+
+  <g transform="translate(28,92)">
+    <rect width="350" height="72" rx="14" fill="#161b22" stroke="#30363d" />
+    <text x="20" y="30" font-size="13" fill="#8b949e">Public repositories</text>
+    <text x="20" y="54" font-size="24" font-weight="700" fill="#e6edf3">22</text>
+    <text x="320" y="48" text-anchor="middle" font-size="22" fill="#58a6ff">▣</text>
+  </g>
+
+  <g transform="translate(394,92)">
+    <rect width="350" height="72" rx="14" fill="#161b22" stroke="#30363d" />
+    <text x="20" y="30" font-size="13" fill="#8b949e">Followers</text>
+    <text x="20" y="54" font-size="24" font-weight="700" fill="#e6edf3">6</text>
+    <text x="320" y="48" text-anchor="middle" font-size="22" fill="#58a6ff">◉</text>
+  </g>
+
+  <g transform="translate(28,172)">
+    <rect width="350" height="72" rx="14" fill="#161b22" stroke="#30363d" />
+    <text x="20" y="30" font-size="13" fill="#8b949e">Total stars</text>
+    <text x="20" y="54" font-size="24" font-weight="700" fill="#e6edf3">67</text>
+    <text x="320" y="48" text-anchor="middle" font-size="22" fill="#58a6ff">★</text>
+  </g>
+
+  <g transform="translate(394,172)">
+    <rect width="350" height="72" rx="14" fill="#161b22" stroke="#30363d" />
+    <text x="20" y="30" font-size="13" fill="#8b949e">Total forks</text>
+    <text x="20" y="54" font-size="24" font-weight="700" fill="#e6edf3">7</text>
+    <text x="320" y="48" text-anchor="middle" font-size="22" fill="#58a6ff">⑂</text>
+  </g>
+  <text x="792" y="228" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Updated 2026-08-12 12:00 UTC</text>
+</svg>

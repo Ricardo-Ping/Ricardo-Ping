@@ -1,0 +1,40 @@
+name: Refresh Profile Stats
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+      - scripts/generate_github_stats_svg.py
+      - .github/workflows/profile-stats.yml
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate SVG cards
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_github_stats_svg.py
+
+      - name: Commit updated cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile stats cards"
+          file_pattern: assets/github-stats.svg assets/top-languages.svg

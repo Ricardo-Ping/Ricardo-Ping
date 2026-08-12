@@ -76,11 +76,11 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Ricardo-Ping&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=e6edf3&text_color=a5b4c3&icon_color=58a6ff" alt="stats" />
+  <img width="820" src="./assets/github-stats.svg" alt="stats" />
 </p>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Ricardo-Ping&layout=compact&hide_border=true&langs_count=8&bg_color=0d1117&title_color=e6edf3&text_color=a5b4c3" alt="top langs" />
+  <img width="820" src="./assets/top-languages.svg" alt="top langs" />
 </p>
 
 ## 🧬 Contribution Snake
