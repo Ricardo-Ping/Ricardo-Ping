@@ -1,56 +1,92 @@
-<svg width="820" height="328" viewBox="0 0 820 328" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="langsTitle langsDesc">
+<svg width="820" height="548" viewBox="0 0 820 548" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="langsTitle langsDesc">
+
+  <defs>
+    <linearGradient id="cardAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#1f6feb" />
+    </linearGradient>
+    <linearGradient id="heroGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
   <title id="langsTitle">Ricardo-Ping Top Languages</title>
   <desc id="langsDesc">Auto-generated GitHub profile language distribution card.</desc>
-  <rect x="1" y="1" width="818" height="326" rx="18" fill="#0d1117" stroke="#30363d" />
-  <text x="28" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#e6edf3">Top Languages</text>
-  <text x="28" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">@Ricardo-Ping · aggregated from owned public repositories</text>
-  <g transform="translate(28,98)">
-    <circle cx="6" cy="11" r="6" fill="#3572A5" />
-    <text x="22" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e6edf3">Python</text>
-    <text x="734" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">78.0%</text>
-    <rect x="22" y="22" width="560" height="8" rx="4" fill="#21262d" />
-    <rect x="22" y="22" width="437" height="8" rx="4" fill="#3572A5" />
-    <text x="596" y="29" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">7,051,918 bytes</text>
+  <rect x="1" y="1" width="818" height="546" rx="24" fill="#0d1117" stroke="#2f3746" />
+  <rect x="1" y="1" width="818" height="10" rx="24" fill="url(#cardAccent)" />
+  <text x="36" y="54" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="29" font-weight="700" fill="#f8fafc">Top Languages</text>
+  <text x="36" y="82" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#94a3b8">@Ricardo-Ping - aggregated from 16 owned public repositories</text>
+
+  <g transform="translate(582,34)">
+    <rect width="198" height="30" rx="15" fill="#161b22" stroke="#2f3746" />
+    <circle cx="16" cy="15" r="4" fill="#58a6ff" />
+    <text x="28" y="19" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Updated 2026-08-12 12:21 UTC</text>
   </g>
-  <g transform="translate(28,132)">
-    <circle cx="6" cy="11" r="6" fill="#DA5B0B" />
-    <text x="22" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e6edf3">Jupyter Notebook</text>
-    <text x="734" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">10.0%</text>
-    <rect x="22" y="22" width="560" height="8" rx="4" fill="#21262d" />
-    <rect x="22" y="22" width="56" height="8" rx="4" fill="#DA5B0B" />
-    <text x="596" y="29" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">907,204 bytes</text>
+  <g transform="translate(36,94)">
+    <rect width="230" height="26" rx="13" fill="#161b22" stroke="#2f3746" />
+    <text x="14" y="17" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">6 languages shown</text>
   </g>
-  <g transform="translate(28,166)">
-    <circle cx="6" cy="11" r="6" fill="#41b883" />
-    <text x="22" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e6edf3">Vue</text>
-    <text x="734" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">5.0%</text>
-    <rect x="22" y="22" width="560" height="8" rx="4" fill="#21262d" />
-    <rect x="22" y="22" width="28" height="8" rx="4" fill="#41b883" />
-    <text x="596" y="29" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">451,678 bytes</text>
+  <g transform="translate(276,94)">
+    <rect width="182" height="26" rx="13" fill="#161b22" stroke="#2f3746" />
+    <text x="14" y="17" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">8.64 MB tracked total</text>
   </g>
-  <g transform="translate(28,200)">
-    <circle cx="6" cy="11" r="6" fill="#f1e05a" />
-    <text x="22" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e6edf3">JavaScript</text>
-    <text x="734" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">2.7%</text>
-    <rect x="22" y="22" width="560" height="8" rx="4" fill="#21262d" />
-    <rect x="22" y="22" width="15" height="8" rx="4" fill="#f1e05a" />
-    <text x="596" y="29" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">247,180 bytes</text>
+  <g transform="translate(36,124)">
+    <circle cx="8" cy="11" r="7" fill="#3572A5" />
+    <text x="28" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">Python</text>
+    <text x="748" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">78.0%</text>
+    <rect x="28" y="30" width="560" height="10" rx="5" fill="#202938" />
+    <rect x="28" y="30" width="437" height="10" rx="5" fill="#3572A5" />
+    <text x="28" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">6.73 MB of tracked source</text>
+    <text x="748" y="56" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">7,061,461 bytes</text>
   </g>
-  <g transform="translate(28,234)">
-    <circle cx="6" cy="11" r="6" fill="#e34c26" />
-    <text x="22" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e6edf3">HTML</text>
-    <text x="734" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">1.7%</text>
-    <rect x="22" y="22" width="560" height="8" rx="4" fill="#21262d" />
-    <rect x="22" y="22" width="12" height="8" rx="4" fill="#e34c26" />
-    <text x="596" y="29" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">150,428 bytes</text>
+  <g transform="translate(36,188)">
+    <line x1="0" y1="-18" x2="748" y2="-18" stroke="#2f3746" opacity="0.55" />
+    <circle cx="8" cy="11" r="7" fill="#DA5B0B" />
+    <text x="28" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">Jupyter Notebook</text>
+    <text x="748" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">10.0%</text>
+    <rect x="28" y="30" width="560" height="10" rx="5" fill="#202938" />
+    <rect x="28" y="30" width="56" height="10" rx="5" fill="#DA5B0B" />
+    <text x="28" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">886 KB of tracked source</text>
+    <text x="748" y="56" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">907,204 bytes</text>
   </g>
-  <g transform="translate(28,268)">
-    <circle cx="6" cy="11" r="6" fill="#563d7c" />
-    <text x="22" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e6edf3">CSS</text>
-    <text x="734" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8b949e">1.2%</text>
-    <rect x="22" y="22" width="560" height="8" rx="4" fill="#21262d" />
-    <rect x="22" y="22" width="12" height="8" rx="4" fill="#563d7c" />
-    <text x="596" y="29" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b949e">112,304 bytes</text>
+  <g transform="translate(36,252)">
+    <line x1="0" y1="-18" x2="748" y2="-18" stroke="#2f3746" opacity="0.55" />
+    <circle cx="8" cy="11" r="7" fill="#41b883" />
+    <text x="28" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">Vue</text>
+    <text x="748" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">5.0%</text>
+    <rect x="28" y="30" width="560" height="10" rx="5" fill="#202938" />
+    <rect x="28" y="30" width="28" height="10" rx="5" fill="#41b883" />
+    <text x="28" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">441 KB of tracked source</text>
+    <text x="748" y="56" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">451,678 bytes</text>
   </g>
-  <text x="792" y="308" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">Updated 2026-08-12 12:04 UTC</text>
+  <g transform="translate(36,316)">
+    <line x1="0" y1="-18" x2="748" y2="-18" stroke="#2f3746" opacity="0.55" />
+    <circle cx="8" cy="11" r="7" fill="#f1e05a" />
+    <text x="28" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">JavaScript</text>
+    <text x="748" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">2.7%</text>
+    <rect x="28" y="30" width="560" height="10" rx="5" fill="#202938" />
+    <rect x="28" y="30" width="18" height="10" rx="5" fill="#f1e05a" />
+    <text x="28" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">241 KB of tracked source</text>
+    <text x="748" y="56" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">247,180 bytes</text>
+  </g>
+  <g transform="translate(36,380)">
+    <line x1="0" y1="-18" x2="748" y2="-18" stroke="#2f3746" opacity="0.55" />
+    <circle cx="8" cy="11" r="7" fill="#e34c26" />
+    <text x="28" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">HTML</text>
+    <text x="748" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">1.7%</text>
+    <rect x="28" y="30" width="560" height="10" rx="5" fill="#202938" />
+    <rect x="28" y="30" width="18" height="10" rx="5" fill="#e34c26" />
+    <text x="28" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">147 KB of tracked source</text>
+    <text x="748" y="56" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">150,428 bytes</text>
+  </g>
+  <g transform="translate(36,444)">
+    <line x1="0" y1="-18" x2="748" y2="-18" stroke="#2f3746" opacity="0.55" />
+    <circle cx="8" cy="11" r="7" fill="#563d7c" />
+    <text x="28" y="16" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">CSS</text>
+    <text x="748" y="16" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#f8fafc">1.2%</text>
+    <rect x="28" y="30" width="560" height="10" rx="5" fill="#202938" />
+    <rect x="28" y="30" width="18" height="10" rx="5" fill="#563d7c" />
+    <text x="28" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">110 KB of tracked source</text>
+    <text x="748" y="56" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">112,304 bytes</text>
+  </g>
 </svg>

@@ -1,9 +1,12 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
+from __future__ import annotations
+
 import json
 import os
 import re
 import urllib.parse
 import urllib.request
+from difflib import SequenceMatcher
 from html import unescape
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -48,6 +51,20 @@ def normalize_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def normalize_title_key(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", str(title).lower()).strip()
+
+
+def title_similarity(left: str, right: str) -> float:
+    left_key = normalize_title_key(left)
+    right_key = normalize_title_key(right)
+    if not left_key or not right_key:
+        return 0.0
+    if left_key == right_key:
+        return 1.0
+    return SequenceMatcher(None, left_key, right_key).ratio()
+
+
 def load_seed() -> List[Dict[str, Any]]:
     if not SEED_PATH.exists():
         return []
@@ -66,6 +83,52 @@ def load_cache() -> List[Dict[str, Any]]:
 def write_cache(entries: List[Dict[str, Any]]) -> None:
     CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
     CACHE_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def build_seed_index(entries: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
+    index: Dict[str, Dict[str, Any]] = {}
+    for raw_entry in entries:
+        entry = normalize_entry(raw_entry)
+        key = normalize_title_key(entry.get("title", ""))
+        if key:
+            index[key] = entry
+    return index
+
+
+def preserve_curated_metadata(
+    entries: List[Dict[str, Any]],
+    seed_index: Dict[str, Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    merged_entries: List[Dict[str, Any]] = []
+    seen_keys = set()
+
+    for raw_entry in entries:
+        entry = normalize_entry(raw_entry)
+        key = normalize_title_key(entry.get("title", ""))
+        curated = seed_index.get(key)
+
+        if curated:
+            # Prefer curated local metadata for stable fields like title casing and DOI links.
+            entry["title"] = curated.get("title") or entry["title"]
+            if not entry.get("authors"):
+                entry["authors"] = curated.get("authors") or []
+            if not entry.get("venue"):
+                entry["venue"] = curated.get("venue") or ""
+            if not entry.get("year"):
+                entry["year"] = curated.get("year") or 0
+            if not entry.get("doi"):
+                entry["doi"] = curated.get("doi")
+            if not entry.get("paper_url"):
+                entry["paper_url"] = curated.get("paper_url")
+            seen_keys.add(key)
+
+        merged_entries.append(entry)
+
+    for key, curated in seed_index.items():
+        if key not in seen_keys:
+            merged_entries.append(normalize_entry(curated))
+
+    return merged_entries
 
 
 def extract_orcid_external_ids(work: Dict[str, Any]) -> Dict[str, str]:
@@ -183,35 +246,49 @@ def fetch_scholar_publications(user_id: str) -> List[Dict[str, Any]]:
 
 
 def enrich_with_crossref(entries: List[Dict[str, Any]]) -> None:
-    for e in entries:
-        if e.get("doi") and e.get("authors") and e.get("venue"):
+    for entry in entries:
+        if entry.get("doi") and entry.get("authors") and entry.get("venue"):
             continue
-        query = urllib.parse.quote(e["title"])
-        url = f"https://api.crossref.org/works?query.bibliographic={query}&rows=1"
+
+        query = urllib.parse.quote(entry["title"])
+        url = f"https://api.crossref.org/works?query.bibliographic={query}&rows=5"
         try:
             result = fetch_json(url)
-            item = (result.get("message", {}).get("items") or [{}])[0]
+            items = result.get("message", {}).get("items") or []
         except Exception:
             continue
 
-        if not e.get("doi") and item.get("DOI"):
-            e["doi"] = item["DOI"]
+        best_item = None
+        best_score = 0.0
+        for candidate in items:
+            titles = candidate.get("title") or []
+            candidate_title = titles[0] if titles else ""
+            score = title_similarity(entry["title"], candidate_title)
+            if score > best_score:
+                best_score = score
+                best_item = candidate
 
-        if not e.get("venue"):
-            container = item.get("container-title") or []
+        if not best_item or best_score < 0.88:
+            continue
+
+        if not entry.get("doi") and best_item.get("DOI"):
+            entry["doi"] = best_item["DOI"]
+
+        if not entry.get("venue"):
+            container = best_item.get("container-title") or []
             if container:
-                e["venue"] = container[0]
+                entry["venue"] = container[0]
 
-        if not e.get("authors"):
+        if not entry.get("authors"):
             authors = []
-            for a in item.get("author", []) or []:
-                given = a.get("given", "").strip()
-                family = a.get("family", "").strip()
+            for author in best_item.get("author", []) or []:
+                given = author.get("given", "").strip()
+                family = author.get("family", "").strip()
                 name = f"{given} {family}".strip()
                 if name:
                     authors.append(name)
             if authors:
-                e["authors"] = authors
+                entry["authors"] = authors
 
 
 def fetch_openalex_work(doi: Optional[str], title: str) -> Optional[Dict[str, Any]]:
@@ -231,18 +308,31 @@ def fetch_openalex_work(doi: Optional[str], title: str) -> Optional[Dict[str, An
     if not title:
         return None
 
-    params = {"search": title, "per-page": "1"}
+    params = {"search": title, "per-page": "5"}
     if mailto:
         params["mailto"] = mailto
     url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params)
     result = fetch_json(url)
-    return (result.get("results") or [None])[0]
+    candidates = result.get("results") or []
+
+    best_match = None
+    best_score = 0.0
+    for candidate in candidates:
+        candidate_title = candidate.get("display_name") or ""
+        score = title_similarity(title, candidate_title)
+        if score > best_score:
+            best_score = score
+            best_match = candidate
+
+    if best_match and best_score >= 0.88:
+        return best_match
+    return None
 
 
 def enrich_with_openalex_citations(entries: List[Dict[str, Any]]) -> None:
-    for e in entries:
-        doi = e.get("doi")
-        title = e.get("title", "")
+    for entry in entries:
+        doi = entry.get("doi")
+        title = entry.get("title", "")
         if not doi and not title:
             continue
 
@@ -256,7 +346,7 @@ def enrich_with_openalex_citations(entries: List[Dict[str, Any]]) -> None:
 
         cited_by_count = work.get("cited_by_count")
         if cited_by_count is not None:
-            e["citations"] = int(cited_by_count)
+            entry["citations"] = int(cited_by_count)
 
 
 def is_first_author(entry: Dict[str, Any], primary_last_name: str) -> bool:
@@ -277,32 +367,32 @@ def render_table(entries: List[Dict[str, Any]]) -> str:
         return "<p>No publications found.</p>"
 
     lines = ["<table>"]
-    for e in entries:
-        link = doi_to_url(e.get("doi")) or e.get("paper_url")
-        safe_title = e["title"].replace("|", "\\|")
+    for entry in entries:
+        link = doi_to_url(entry.get("doi")) or entry.get("paper_url")
+        safe_title = entry["title"].replace("|", "\\|")
         title_html = f'<a href="{link}"><strong>{safe_title}</strong></a>' if link else f"<strong>{safe_title}</strong>"
-        authors = ", ".join(e.get("authors") or ["N/A"])
-        venue = e.get("venue") or "N/A"
+        authors = ", ".join(entry.get("authors") or ["N/A"])
+        venue = entry.get("venue") or "N/A"
         links: List[str] = []
-        if e.get("doi"):
-            links.append(f'<a href="{doi_to_url(e["doi"])}">DOI</a>')
-        if e.get("paper_url"):
-            links.append(f'<a href="{e["paper_url"]}">Paper</a>')
+        if entry.get("doi"):
+            links.append(f'<a href="{doi_to_url(entry["doi"])}">DOI</a>')
+        if entry.get("paper_url"):
+            links.append(f'<a href="{entry["paper_url"]}">Paper</a>')
         links_html = " | ".join(links) if links else "-"
 
         lines.append("  <tr>")
-        lines.append(f"    <td><strong>{e.get('year', 0) or 'N/A'}</strong></td>")
+        lines.append(f"    <td><strong>{entry.get('year', 0) or 'N/A'}</strong></td>")
         lines.append(f"    <td>{title_html}<br/>Authors: {authors}<br/>{venue}</td>")
-        lines.append(f"    <td>{links_html}<br/>{citation_badge(e.get('citations'))}</td>")
+        lines.append(f"    <td>{links_html}<br/>{citation_badge(entry.get('citations'))}</td>")
         lines.append("  </tr>")
     lines.append("</table>")
     return "\n".join(lines)
 
 
 def render_publication_section(entries: List[Dict[str, Any]], source_label: str, primary_last_name: str) -> str:
-    ordered = sorted(entries, key=lambda x: (x.get("year", 0), x.get("title", "")), reverse=True)
-    first = [e for e in ordered if is_first_author(e, primary_last_name)]
-    co = [e for e in ordered if not is_first_author(e, primary_last_name)]
+    ordered = sorted(entries, key=lambda entry: (entry.get("year", 0), entry.get("title", "")), reverse=True)
+    first = [entry for entry in ordered if is_first_author(entry, primary_last_name)]
+    co = [entry for entry in ordered if not is_first_author(entry, primary_last_name)]
 
     parts = [
         START_MARKER,
@@ -339,6 +429,8 @@ def main() -> int:
     primary_last_name = os.getenv("PRIMARY_AUTHOR_LAST_NAME", "ping").strip()
 
     entries: List[Dict[str, Any]] = []
+    seed_entries = load_seed()
+    seed_index = build_seed_index(seed_entries)
     source_label = "seed data"
     remote_failed = False
 
@@ -367,11 +459,12 @@ def main() -> int:
             if remote_failed:
                 print(f"[info] using cached publications from {CACHE_PATH}")
         else:
-            entries = load_seed()
+            entries = seed_entries
             source_label = "seed data"
             if remote_failed:
                 print(f"[info] cache empty; using seed publications from {SEED_PATH}")
 
+    entries = preserve_curated_metadata(entries, seed_index)
     enrich_with_crossref(entries)
     enrich_with_openalex_citations(entries)
 
