@@ -25,6 +25,7 @@ jobs:
           PUBLICATION_SOURCE: scholar
           GOOGLE_SCHOLAR_ID: 6dyrh68AAAAJ
           PRIMARY_AUTHOR_LAST_NAME: ping
+          PUBLICATION_CITATION_BADGE_BASE_URL: ${{ vars.PUBLICATION_CITATION_BADGE_BASE_URL }}
         run: python scripts/sync_publications.py
 
       - name: Commit updated README/cache

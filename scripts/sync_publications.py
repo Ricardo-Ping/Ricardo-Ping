@@ -51,6 +51,10 @@ def normalize_entry(entry: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def get_citation_badge_base_url() -> str:
+    return os.getenv("PUBLICATION_CITATION_BADGE_BASE_URL", "").strip().rstrip("/")
+
+
 def normalize_title_key(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", str(title).lower()).strip()
 
@@ -362,7 +366,41 @@ def citation_badge(citations: Any) -> str:
     return f'<img src="https://img.shields.io/badge/Citations-{citations}-1f6feb?style=flat-square" alt="citations {citations}"/>'
 
 
-def render_table(entries: List[Dict[str, Any]]) -> str:
+def build_dynamic_citation_badge_url(
+    entry: Dict[str, Any],
+    citations: Any,
+    badge_base_url: str,
+) -> Optional[str]:
+    if not badge_base_url:
+        return None
+
+    doi = entry.get("doi")
+    title = entry.get("title")
+    if not doi and not title:
+        return None
+
+    params: Dict[str, str] = {"label": "OpenAlex"}
+    if doi:
+        params["doi"] = str(doi)
+    elif title:
+        params["title"] = str(title)
+    if citations is not None:
+        params["fallback"] = str(citations)
+
+    return f"{badge_base_url}/badge.svg?{urllib.parse.urlencode(params)}"
+
+
+def render_citation_badge(entry: Dict[str, Any], badge_base_url: str) -> str:
+    dynamic_badge = build_dynamic_citation_badge_url(entry, entry.get("citations"), badge_base_url)
+    if dynamic_badge:
+        fallback_text = entry.get("citations")
+        fallback_suffix = fallback_text if fallback_text is not None else "n/a"
+        return f'<img src="{dynamic_badge}" alt="openalex citations {fallback_suffix}"/>'
+
+    return citation_badge(entry.get("citations"))
+
+
+def render_table(entries: List[Dict[str, Any]], badge_base_url: str) -> str:
     if not entries:
         return "<p>No publications found.</p>"
 
@@ -383,28 +421,37 @@ def render_table(entries: List[Dict[str, Any]]) -> str:
         lines.append("  <tr>")
         lines.append(f"    <td><strong>{entry.get('year', 0) or 'N/A'}</strong></td>")
         lines.append(f"    <td>{title_html}<br/>Authors: {authors}<br/>{venue}</td>")
-        lines.append(f"    <td>{links_html}<br/>{citation_badge(entry.get('citations'))}</td>")
+        lines.append(f"    <td>{links_html}<br/>{render_citation_badge(entry, badge_base_url)}</td>")
         lines.append("  </tr>")
     lines.append("</table>")
     return "\n".join(lines)
 
 
-def render_publication_section(entries: List[Dict[str, Any]], source_label: str, primary_last_name: str) -> str:
+def render_publication_section(
+    entries: List[Dict[str, Any]],
+    source_label: str,
+    primary_last_name: str,
+    badge_base_url: str,
+) -> str:
     ordered = sorted(entries, key=lambda entry: (entry.get("year", 0), entry.get("title", "")), reverse=True)
     first = [entry for entry in ordered if is_first_author(entry, primary_last_name)]
     co = [entry for entry in ordered if not is_first_author(entry, primary_last_name)]
 
+    source_line = f"> Auto-synced metadata source: **{source_label}**"
+    if badge_base_url:
+        source_line += " · live citation badges: **OpenAlex**"
+
     parts = [
         START_MARKER,
-        f"> Auto-synced source: **{source_label}**",
+        source_line,
         "",
         "## Publications (First Author)",
         "",
-        render_table(first),
+        render_table(first, badge_base_url),
         "",
         "## Publications (Co-Author)",
         "",
-        render_table(co),
+        render_table(co, badge_base_url),
         END_MARKER,
     ]
     return "\n".join(parts)
@@ -427,6 +474,7 @@ def main() -> int:
     orcid_id = os.getenv("ORCID_ID", "").strip()
     scholar_id = os.getenv("GOOGLE_SCHOLAR_ID", "").strip()
     primary_last_name = os.getenv("PRIMARY_AUTHOR_LAST_NAME", "ping").strip()
+    badge_base_url = get_citation_badge_base_url()
 
     entries: List[Dict[str, Any]] = []
     seed_entries = load_seed()
@@ -472,7 +520,7 @@ def main() -> int:
         write_cache(entries)
 
     readme = README_PATH.read_text(encoding="utf-8")
-    block = render_publication_section(entries, source_label, primary_last_name)
+    block = render_publication_section(entries, source_label, primary_last_name, badge_base_url)
     updated = replace_between_markers(readme, block)
     README_PATH.write_text(updated, encoding="utf-8")
 

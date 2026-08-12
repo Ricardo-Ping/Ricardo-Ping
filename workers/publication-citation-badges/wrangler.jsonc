@@ -1,0 +1,9 @@
+{
+  "name": "ricardo-ping-publication-citation-badges",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-08-12",
+  "workers_dev": true,
+  "vars": {
+    "BADGE_LABEL": "OpenAlex"
+  }
+}
