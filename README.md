@@ -43,7 +43,7 @@
   <tr>
     <td><strong>2024</strong></td>
     <td><a href="https://doi.org/10.1109/tcss.2024.3490801"><strong>DDRec: Dual denoising multimodal graph recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, B He, N Zhou, Y Dong<br/>IEEE Transactions on Computational Social Systems 12 (3), 1100-1114, 2024</td>
-    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1109%2Ftcss.2024.3490801&fallback=8" alt="openalex citations 8"/></td>
+    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1109%2Ftcss.2024.3490801&fallback=9" alt="openalex citations 9"/></td>
   </tr>
 </table>
 
