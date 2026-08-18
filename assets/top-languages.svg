@@ -20,7 +20,7 @@
   <g transform="translate(582,34)">
     <rect width="198" height="30" rx="15" fill="#161b22" stroke="#2f3746" />
     <circle cx="16" cy="15" r="4" fill="#58a6ff" />
-    <text x="28" y="19" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Updated 2026-08-17 03:41 UTC</text>
+    <text x="28" y="19" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Updated 2026-08-18 03:36 UTC</text>
   </g>
   <g transform="translate(36,94)">
     <rect width="230" height="26" rx="13" fill="#161b22" stroke="#2f3746" />
@@ -28,7 +28,7 @@
   </g>
   <g transform="translate(276,94)">
     <rect width="182" height="26" rx="13" fill="#161b22" stroke="#2f3746" />
-    <text x="14" y="17" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">8.65 MB tracked total</text>
+    <text x="14" y="17" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">8.66 MB tracked total</text>
   </g>
   <g transform="translate(36,124)">
     <circle cx="8" cy="11" r="7" fill="#3572A5" />
@@ -37,7 +37,7 @@
     <rect x="28" y="30" width="560" height="10" rx="5" fill="#202938" />
     <rect x="28" y="30" width="436" height="10" rx="5" fill="#3572A5" />
     <text x="28" y="56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">6.74 MB of tracked source</text>
-    <text x="748" y="56" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">7,071,729 bytes</text>
+    <text x="748" y="56" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">7,072,275 bytes</text>
   </g>
   <g transform="translate(36,188)">
     <line x1="0" y1="-18" x2="748" y2="-18" stroke="#2f3746" opacity="0.55" />
