@@ -20,7 +20,7 @@
 - I share technical projects and notes in both Chinese and English.
 
 <!-- PUBS:START -->
-> Auto-synced metadata source: **cached data** · live citation badges: **OpenAlex**
+> Auto-synced metadata source: **Google Scholar (6dyrh68AAAAJ)** · live citation badges: **OpenAlex**
 
 ## Publications (First Author)
 
