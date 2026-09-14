@@ -20,7 +20,7 @@
 - I share technical projects and notes in both Chinese and English.
 
 <!-- PUBS:START -->
-> Auto-synced metadata source: **cached data** · live citation badges: **OpenAlex**
+> Auto-synced metadata source: **Google Scholar (6dyrh68AAAAJ)** · live citation badges: **OpenAlex**
 
 ## Publications (First Author)
 
@@ -58,7 +58,7 @@
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.eswa.2025.128338"><strong>Mixed-GGNAS: Mixed Search-space NAS based on genetic algorithm combined with gradient descent for medical image segmentation</strong></a><br/>Authors: M Hu, J Li, Y Dong, Z Zhang, W Liu, P Zhang, Y Ping, L Jiang, Z Yu<br/>Expert Systems with Applications 289, 128338, 2025</td>
-    <td><a href="https://doi.org/10.1016/j.eswa.2025.128338">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.eswa.2025.128338&fallback=10" alt="openalex citations 10"/></td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2025.128338">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.eswa.2025.128338&fallback=11" alt="openalex citations 11"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
