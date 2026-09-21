@@ -20,7 +20,7 @@
 - I share technical projects and notes in both Chinese and English.
 
 <!-- PUBS:START -->
-> Auto-synced metadata source: **Google Scholar (6dyrh68AAAAJ)** · live citation badges: **OpenAlex**
+> Auto-synced metadata source: **cached data** · live citation badges: **OpenAlex**
 
 ## Publications (First Author)
 
@@ -53,7 +53,7 @@
   <tr>
     <td><strong>2026</strong></td>
     <td><a href="https://doi.org/10.1016/j.bspc.2025.108481"><strong>MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception</strong></a><br/>Authors: P Zhang, Y Dong, J Li, L Jiang, M Hu, Y Ping<br/>Biomedical Signal Processing and Control 112, 108481, 2026</td>
-    <td><a href="https://doi.org/10.1016/j.bspc.2025.108481">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.bspc.2025.108481&fallback=2" alt="openalex citations 2"/></td>
+    <td><a href="https://doi.org/10.1016/j.bspc.2025.108481">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.bspc.2025.108481&fallback=3" alt="openalex citations 3"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
