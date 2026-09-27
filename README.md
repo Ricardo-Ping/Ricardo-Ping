@@ -19,6 +19,11 @@
 - I am currently improving my skills in LLM evaluation, RAG pipelines, and data-centric engineering.
 - I share technical projects and notes in both Chinese and English.
 
+## 🧑‍⚖️ Academic Service
+
+- **Journal Reviewer:** *Expert Systems with Applications (ESWA)*, *Engineering Applications of Artificial Intelligence (EAAI)*, and *Neural Computing and Applications (NCAA)*.
+- **Conference Programme Committee:** *MMM 2027*.
+
 <!-- PUBS:START -->
 > Auto-synced metadata source: **cached data** · live citation badges: **OpenAlex**
 
