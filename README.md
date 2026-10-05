@@ -25,7 +25,7 @@
 - **Conference Programme Committee:** *MMM 2027*.
 
 <!-- PUBS:START -->
-> Auto-synced metadata source: **cached data** · live citation badges: **OpenAlex**
+> Auto-synced metadata source: **Google Scholar (6dyrh68AAAAJ)** · live citation badges: **OpenAlex**
 
 ## Publications (First Author)
 
