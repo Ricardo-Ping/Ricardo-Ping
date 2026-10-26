@@ -25,7 +25,7 @@
 - **Conference Programme Committee:** *MMM 2027*.
 
 <!-- PUBS:START -->
-> Auto-synced metadata source: **cached data** · live citation badges: **OpenAlex**
+> Auto-synced metadata source: **Google Scholar (6dyrh68AAAAJ)** · live citation badges: **OpenAlex**
 
 ## Publications (First Author)
 
@@ -33,7 +33,7 @@
   <tr>
     <td><strong>2026</strong></td>
     <td><a href="https://doi.org/10.1016/j.eswa.2026.132311"><strong>Modality-aware Hypergraph Edge Diffusion for Multimodal Recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, S Huang, M Hu, Y Dong<br/>Expert Systems with Applications, 132311, 2026</td>
-    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.eswa.2026.132311&fallback=0" alt="openalex citations 0"/></td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.eswa.2026.132311&fallback=1" alt="openalex citations 1"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
