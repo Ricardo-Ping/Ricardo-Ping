@@ -25,7 +25,7 @@
 - **Conference Programme Committee:** *MMM 2027*.
 
 <!-- PUBS:START -->
-> Auto-synced metadata source: **Google Scholar (6dyrh68AAAAJ)** · live citation badges: **OpenAlex**
+> Auto-synced metadata source: **cached data** · live citation badges: **OpenAlex**
 
 ## Publications (First Author)
 
@@ -43,12 +43,12 @@
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.neucom.2025.131630"><strong>Grade: Generative Graph Contrastive Learning for Multimodal Recommendation</strong></a><br/>Authors: YC Ping, SQ Wang, ZY Yang, YQ Dong, MX Hu, PL Zhang<br/>Neurocomputing, 131630, 2025</td>
-    <td><a href="https://doi.org/10.1016/j.neucom.2025.131630">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.neucom.2025.131630&fallback=2" alt="openalex citations 2"/></td>
+    <td><a href="https://doi.org/10.1016/j.neucom.2025.131630">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.neucom.2025.131630&fallback=3" alt="openalex citations 3"/></td>
   </tr>
   <tr>
     <td><strong>2024</strong></td>
     <td><a href="https://doi.org/10.1109/tcss.2024.3490801"><strong>DDRec: Dual denoising multimodal graph recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, B He, N Zhou, Y Dong<br/>IEEE Transactions on Computational Social Systems 12 (3), 1100-1114, 2024</td>
-    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1109%2Ftcss.2024.3490801&fallback=10" alt="openalex citations 10"/></td>
+    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1109%2Ftcss.2024.3490801&fallback=13" alt="openalex citations 13"/></td>
   </tr>
 </table>
 
@@ -58,12 +58,12 @@
   <tr>
     <td><strong>2026</strong></td>
     <td><a href="https://doi.org/10.1016/j.bspc.2025.108481"><strong>MSSM-MFP: Medical semantic segmentation model based on multiscale fusion perception</strong></a><br/>Authors: P Zhang, Y Dong, J Li, L Jiang, M Hu, Y Ping<br/>Biomedical Signal Processing and Control 112, 108481, 2026</td>
-    <td><a href="https://doi.org/10.1016/j.bspc.2025.108481">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.bspc.2025.108481&fallback=3" alt="openalex citations 3"/></td>
+    <td><a href="https://doi.org/10.1016/j.bspc.2025.108481">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.bspc.2025.108481&fallback=4" alt="openalex citations 4"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.eswa.2025.128338"><strong>Mixed-GGNAS: Mixed Search-space NAS based on genetic algorithm combined with gradient descent for medical image segmentation</strong></a><br/>Authors: M Hu, J Li, Y Dong, Z Zhang, W Liu, P Zhang, Y Ping, L Jiang, Z Yu<br/>Expert Systems with Applications 289, 128338, 2025</td>
-    <td><a href="https://doi.org/10.1016/j.eswa.2025.128338">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.eswa.2025.128338&fallback=11" alt="openalex citations 11"/></td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2025.128338">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.eswa.2025.128338&fallback=12" alt="openalex citations 12"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
