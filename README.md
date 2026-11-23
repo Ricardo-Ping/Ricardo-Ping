@@ -33,12 +33,12 @@
   <tr>
     <td><strong>2026</strong></td>
     <td><a href="https://doi.org/10.1016/j.eswa.2026.132311"><strong>Modality-aware Hypergraph Edge Diffusion for Multimodal Recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, S Huang, M Hu, Y Dong<br/>Expert Systems with Applications, 132311, 2026</td>
-    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.eswa.2026.132311&fallback=2" alt="openalex citations 2"/></td>
+    <td><a href="https://doi.org/10.1016/j.eswa.2026.132311">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.eswa.2026.132311&fallback=3" alt="openalex citations 3"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1007/s00521-025-11372-6"><strong>MRFFD: multimodal recommender based on feature fusion and decoupling</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, Y Dong, R Jia<br/>Neural Computing and Applications 37 (21), 16599-16620, 2025</td>
-    <td><a href="https://doi.org/10.1007/s00521-025-11372-6">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1007%2Fs00521-025-11372-6&fallback=1" alt="openalex citations 1"/></td>
+    <td><a href="https://doi.org/10.1007/s00521-025-11372-6">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1007%2Fs00521-025-11372-6&fallback=3" alt="openalex citations 3"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
@@ -48,7 +48,7 @@
   <tr>
     <td><strong>2024</strong></td>
     <td><a href="https://doi.org/10.1109/tcss.2024.3490801"><strong>DDRec: Dual denoising multimodal graph recommendation</strong></a><br/>Authors: Y Ping, S Wang, Z Yang, B He, N Zhou, Y Dong<br/>IEEE Transactions on Computational Social Systems 12 (3), 1100-1114, 2024</td>
-    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1109%2Ftcss.2024.3490801&fallback=16" alt="openalex citations 16"/></td>
+    <td><a href="https://doi.org/10.1109/tcss.2024.3490801">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1109%2Ftcss.2024.3490801&fallback=18" alt="openalex citations 18"/></td>
   </tr>
 </table>
 
@@ -68,12 +68,12 @@
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.engappai.2025.111560"><strong>MRTI-CR: A model based on multi-relationship and time-aware interest for personalized course recommendation</strong></a><br/>Authors: S Huang, Y Dong, Z Wang, N Zhou, Y Ping<br/>Engineering Applications of Artificial Intelligence 159, 111560, 2025</td>
-    <td><a href="https://doi.org/10.1016/j.engappai.2025.111560">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.engappai.2025.111560&fallback=2" alt="openalex citations 2"/></td>
+    <td><a href="https://doi.org/10.1016/j.engappai.2025.111560">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.engappai.2025.111560&fallback=3" alt="openalex citations 3"/></td>
   </tr>
   <tr>
     <td><strong>2025</strong></td>
     <td><a href="https://doi.org/10.1016/j.bspc.2024.107456"><strong>LAMFFNet: Lightweight Adaptive Multi-layer Feature Fusion network for medical image segmentation</strong></a><br/>Authors: M Hu, Y Dong, J Li, L Jiang, P Zhang, Y Ping<br/>Biomedical Signal Processing and Control 103, 107456, 2025</td>
-    <td><a href="https://doi.org/10.1016/j.bspc.2024.107456">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.bspc.2024.107456&fallback=11" alt="openalex citations 11"/></td>
+    <td><a href="https://doi.org/10.1016/j.bspc.2024.107456">DOI</a><br/><img src="https://ricardo-ping-publication-citation-badges.icardo--ing.workers.dev/badge.svg?label=OpenAlex&doi=10.1016%2Fj.bspc.2024.107456&fallback=12" alt="openalex citations 12"/></td>
   </tr>
 </table>
 <!-- PUBS:END -->
